@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="ENABLE_SUITABLE_CONFIGURATION_CACHING" value="true" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+    <option name="showStatusBarWidget" value="true" />
+    <treeState key="project">
+      <selectedPath>
+        <pathElement>
+          <option name="myNodeId" value="helperText" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.LinkedTextDescriptor" />
+        </pathElement>
+      </selectedPath>
+    </treeState>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d46cbffb-baa0-4dbe-bc04-346a5e87008b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="appiumTest" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="XSLT Stylesheet" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ZBFn8LcokcNjC1VtRbYcL0aKnQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.1267427" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.genymobile.genymotion.ide.idea.GdmSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.mailton.screen" />
+      <recent name="br.com.mailton.screenobjects" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.mailton.steps" />
+      <recent name="br.com.mailton.screen" />
+      <recent name="br.com.mailton.app" />
+      <recent name="br.com.mailton.appium.run" />
+      <recent name="br.com.mailton.appium" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\actio\IdeaProjects\Projeto_Base_Appium_Java_Cucumber\features" />
+      <recent name="C:\Users\actio\IdeaProjects\cucumberAppiumJava\features" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn deploy" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.RunTest">
+    <configuration name="CalculadoraCelularTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cucumberAppiumJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.provamobile.screen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.mailton.screenobjects" />
+      <option name="MAIN_CLASS_NAME" value="br.com.mailton.screenobjects.CalculadoraCelularTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculadoreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cucumberAppiumJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.provamobile.screen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.mailton.steps" />
+      <option name="MAIN_CLASS_NAME" value="br.com.mailton.steps.CalculadoreTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculadoreTest.instalandoApK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cucumberAppiumJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.provamobile.screen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.mailton.steps" />
+      <option name="MAIN_CLASS_NAME" value="br.com.mailton.steps.CalculadoreTest" />
+      <option name="METHOD_NAME" value="instalandoApK" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeSteps" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Projeto_Base_Appium_Java_Cucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.provamobile.steps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.provamobile.steps" />
+      <option name="MAIN_CLASS_NAME" value="br.com.provamobile.steps.HomeSteps" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Projeto_Base_Appium_Java_Cucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.provamobile.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.provamobile.runner" />
+      <option name="MAIN_CLASS_NAME" value="br.com.provamobile.runner.RunTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.RunTest" />
+      <item itemvalue="JUnit.CalculadoraCelularTest" />
+      <item itemvalue="JUnit.CalculadoreTest" />
+      <item itemvalue="JUnit.CalculadoreTest.instalandoApK" />
+      <item itemvalue="JUnit.HomeSteps" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HomeSteps" />
+        <item itemvalue="JUnit.CalculadoreTest" />
+        <item itemvalue="JUnit.CalculadoreTest.instalandoApK" />
+        <item itemvalue="JUnit.CalculadoraCelularTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d46cbffb-baa0-4dbe-bc04-346a5e87008b" name="Default Changelist" comment="" />
+      <created>1584304748195</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584304748195</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="338" y="27" key="#Project_Structure" timestamp="1584304813056">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="338" y="27" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1584304813056" />
+    <state x="280" y="20" key="#Run" timestamp="1584991934591">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="280" y="20" key="#Run/0.0.1366.728@0.0.1366.728" timestamp="1584991934591" />
+    <state x="593" y="111" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1584735604043">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="593" y="111" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1584735604043" />
+    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584991859427">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1584991859427" />
+    <state x="447" y="168" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585235130321">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="447" y="168" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1585235130321" />
+    <state x="322" y="52" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1585368348048">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="322" y="52" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1366.728@0.0.1366.728" timestamp="1585368348048" />
+    <state x="488" y="81" key="#com.intellij.ide.util.MemberChooser" timestamp="1585110347146">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="81" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585110347146" />
+    <state x="413" y="141" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1584726007723">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="141" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1584726007723" />
+    <state x="363" y="90" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585935813165">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="90" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1585935813165" />
+    <state x="479" y="250" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585168997171">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="479" y="250" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1585168997171" />
+    <state x="820" y="274" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1584649662055">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="820" y="274" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.728@0.0.1366.728" timestamp="1584649662055" />
+    <state x="441" y="227" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1584588728167">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="441" y="227" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1584588728167" />
+    <state x="626" y="120" key="FileChooserDialogImpl" timestamp="1586351895484">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="626" y="120" key="FileChooserDialogImpl/0.0.1366.728/-1600.-86.1600.860@0.0.1366.728" timestamp="1586351895484" />
+    <state x="626" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585930027532" />
+    <state width="1323" height="287" key="GridCell.Tab.0.bottom" timestamp="1586387799843">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="659" height="239" key="GridCell.Tab.0.bottom/0.0.1366.728/-1280.86.1280.680@0.0.1366.728" timestamp="1586120777277" />
+    <state width="1323" height="287" key="GridCell.Tab.0.bottom/0.0.1366.728/-1600.-86.1600.860@0.0.1366.728" timestamp="1586387799843" />
+    <state width="1323" height="167" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586271824980" />
+    <state width="1323" height="287" key="GridCell.Tab.0.center" timestamp="1586387799843">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="659" height="239" key="GridCell.Tab.0.center/0.0.1366.728/-1280.86.1280.680@0.0.1366.728" timestamp="1586120777277" />
+    <state width="1323" height="287" key="GridCell.Tab.0.center/0.0.1366.728/-1600.-86.1600.860@0.0.1366.728" timestamp="1586387799843" />
+    <state width="1323" height="167" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586271824979" />
+    <state width="1323" height="287" key="GridCell.Tab.0.left" timestamp="1586387799843">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="659" height="239" key="GridCell.Tab.0.left/0.0.1366.728/-1280.86.1280.680@0.0.1366.728" timestamp="1586120777276" />
+    <state width="1323" height="287" key="GridCell.Tab.0.left/0.0.1366.728/-1600.-86.1600.860@0.0.1366.728" timestamp="1586387799843" />
+    <state width="1323" height="167" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586271824979" />
+    <state width="1323" height="287" key="GridCell.Tab.0.right" timestamp="1586387799843">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="659" height="239" key="GridCell.Tab.0.right/0.0.1366.728/-1280.86.1280.680@0.0.1366.728" timestamp="1586120777277" />
+    <state width="1323" height="287" key="GridCell.Tab.0.right/0.0.1366.728/-1600.-86.1600.860@0.0.1366.728" timestamp="1586387799843" />
+    <state width="1323" height="167" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586271824980" />
+    <state width="1323" height="271" key="GridCell.Tab.1.bottom" timestamp="1584912093183">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="271" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584912093183" />
+    <state width="1323" height="271" key="GridCell.Tab.1.center" timestamp="1584912093183">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="271" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584912093183" />
+    <state width="1323" height="271" key="GridCell.Tab.1.left" timestamp="1584912093183">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="271" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584912093183" />
+    <state width="1323" height="271" key="GridCell.Tab.1.right" timestamp="1584912093183">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="271" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584912093183" />
+    <state x="236" y="40" key="Maven.ArtifactSearchDialog" timestamp="1584973462905">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="236" y="40" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1584973462905" />
+    <state x="29" y="0" key="SettingsEditor" timestamp="1586353181732">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="29" y="0" key="SettingsEditor/0.0.1366.728/-1600.-86.1600.860@0.0.1366.728" timestamp="1586353181732" />
+    <state x="29" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585939185879" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1585163617468">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1585163617468" />
+    <state x="559" y="101" key="com.intellij.ide.util.TipDialog" timestamp="1586378786736">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="559" y="101" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1280.86.1280.680@0.0.1366.728" timestamp="1586120188584" />
+    <state x="559" y="101" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1600.-86.1600.860@0.0.1366.728" timestamp="1586378786736" />
+    <state x="559" y="101" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586269434307" />
+    <state x="0" y="0" width="737" height="728" key="find.popup" timestamp="1584933658708">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="737" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1584933658708" />
+    <state x="245" y="180" width="866" height="367" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1585930185630">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="245" y="180" width="866" height="367" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.728@0.0.1366.728" timestamp="1585930185630" />
+    <state x="435" y="286" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1585172312273">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="435" y="286" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1585172312273" />
+    <state x="646" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1585367968988">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="646" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1585367968988" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1586378947460">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728/-1600.-86.1600.860@0.0.1366.728" timestamp="1586378947460" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1585368824783" />
+    <state x="822" y="288" key="save.project.as.template.dialog" timestamp="1584586967388">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="822" y="288" key="save.project.as.template.dialog/0.0.1366.728@0.0.1366.728" timestamp="1584586967388" />
+  </component>
+</project>
