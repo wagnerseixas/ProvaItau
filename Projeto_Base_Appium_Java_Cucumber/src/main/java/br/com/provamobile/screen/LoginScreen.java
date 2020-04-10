@@ -4,22 +4,29 @@ import org.openqa.selenium.By;
 
 public class LoginScreen extends BaseScreen {
 
-    private static final By campoEmail = By.id("qaninja.com.pixel:id/usernameTxt");
-    private static final By campoSenha = By.id("qaninja.com.pixel:id/passwordTxt");
-    private static final By btEntrar = By.id("qaninja.com.pixel:id/loginButt");
+    private static final By btcadastrar = By.id("com.example.organize:id/button");
+    private static final By btjatenhoconta = By.id("com.example.organize:id/textView5");
+    private static final By btentrar = By.id("com.example.organize:id/btnEntrar");
 
 
-    public static void preencherCampoEmail(String email){
-        preencherInput(campoEmail, email);
+
+
+
+    public static void opcaocadastrar(){
+        click(btcadastrar);
     }
 
-    public static void preencherCampoSenha(String senha){
-        preencherInput(campoSenha, senha);
+    public static void opcaojatenhoconta(){
+        click(btjatenhoconta);
     }
 
-    public static void clicarEntrar(){
-        click(btEntrar);
+    public static void opcaoentrar(){
+        click(btentrar);
+
     }
+
+
+
 
 
 }

@@ -18,13 +18,14 @@ public class BaseScreen extends Element {
             element(by).click();
         }
 
+
         /* Função que limpra campo imput*/
         static void clear(By by) {
             element(by).clear();
         }
 
         /* Função que retorna um "false ou um true" sobre a disponibilidade de um elemento*/
-        static boolean isDisplayed(By by) {
+        public static boolean isDisplayed(By by) {
             return element(by).isDisplayed();
         }
 
@@ -32,6 +33,11 @@ public class BaseScreen extends Element {
         protected static void selecinoTab(By by) {
             element(by).sendKeys(Keys.TAB);
         }
+
+    /* Função que seleciona a tecla Enter sobre um campo*/
+    protected static void selecinoEnter(By by) {
+        element(by).sendKeys(Keys.ENTER);
+    }
 
         /* Função que pega o texto de um determinado elemento*/
         protected static String getText(By by) {

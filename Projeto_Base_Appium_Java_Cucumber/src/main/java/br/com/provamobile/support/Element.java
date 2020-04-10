@@ -33,7 +33,7 @@ public class Element extends DriverFactory {
     }
 
     protected static void waitElement(By by) {
-        appiumDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        appiumDriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         appiumDriver.findElement(by);
     }
 

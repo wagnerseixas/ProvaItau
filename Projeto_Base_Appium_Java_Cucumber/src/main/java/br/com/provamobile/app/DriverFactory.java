@@ -24,12 +24,12 @@ public class DriverFactory {
         cap.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
         cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,"uiautomator2");
         cap.setCapability(MobileCapabilityType.DEVICE_NAME,"teste");
-        cap.setCapability("appPackage","qaninja.com.pixel");
-        cap.setCapability("appActivity","qaninja.com.pixel.SplashScreen");
-        cap.setCapability(MobileCapabilityType.APP, "D:/ProvaItauSP/Projeto_Base_Appium_Java_Cucumber/apk/app-debug.apk");
+        //cap.setCapability("appPackage","qaninja.com.pixel");
+        //cap.setCapability("appActivity","qaninja.com.pixel.SplashScreen");
+        cap.setCapability(MobileCapabilityType.APP, "D:/ProvaItauSP/Projeto_Base_Appium_Java_Cucumber/apk/ContePraMim(^_^).apk");
         //appiumDriver = new AppiumDriver<MobileElement>(new URL("http://192.168.114.103"), cap);
         appiumDriver = new AppiumDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"), cap);
-        appiumDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        appiumDriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
 
         }catch (MalformedURLException e) {

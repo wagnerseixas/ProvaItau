@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "features",
-        tags = {"@wip"},
+        tags = {"@logar,@receita"},
         glue = "br/com/provamobile/steps"
 )
 public class RunTest {

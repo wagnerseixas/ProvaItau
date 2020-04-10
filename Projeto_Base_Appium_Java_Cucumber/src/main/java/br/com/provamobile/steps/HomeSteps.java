@@ -5,9 +5,9 @@ import cucumber.api.java.pt.Dado;
 
 public class HomeSteps {
 
-    @Dado("^que eu esteja na tela de login$")
-    public void que_eu_esteja_na_tela_de_login() {
-        HomeScreen.clicarbtTelaLogin();
+    @Dado("^acesso tela de cadastro logar$")
+    public void acesso_tela_de_cadastro_logar() {
+        HomeScreen.acessarteladecadastro_login();
     }
 
 
