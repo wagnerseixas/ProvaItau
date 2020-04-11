@@ -1,0 +1,102 @@
+
+
+  Contexto: Eu como usuario desejo cadastrar um usuário para acessa a APP # logarouCadastrar.feature:8
+    ### Usado para fazer Swipe de janelas ate a funcionalidade Logar ou Cadastrar
+    Dado acesso tela de cadastro logar                                    # HomeSteps.acesso_tela_de_cadastro_logar()
+CADASTRE-SE
+
+  @logar
+  Esquema do Cenario: Cadastrar Usuário                            # logarouCadastrar.feature:22
+    E seleciono a opcao cadastrar                                  # LoginSteps.seleciono_a_opcao_cadastrar()
+    E preencho o formulario de cadastro com nome  Tony12 Stark     # CadastrarContaSteps.preencho_o_formulario_de_cadastro_com_nome(String)
+    E preencho o formulario de cadastro com email tony12@stark.com # CadastrarContaSteps.preencho_o_formulario_de_cadastro_com_email(String)
+    E preencho o formulario de cadastro com senha pass123          # CadastrarContaSteps.preencho_o_formulario_de_cadastro_com_senha(String)
+    Quando escolho a opcao cadastrar                               # CadastrarContaSteps.escolho_a_opcao_cadastrar()
+    Entao verifico a mensagem de confirmacao de cadastro na tela   # ValidarCadastroSteps.verifico_a_mensagem_de_confirmacao_de_cadastro_na_tela()
+
+  Esquema do Cenario: Logar com Usuário Cadastrado        # logarouCadastrar.feature:25
+    E seleciono a opcao ja tenho conta
+    E preencho o formulario de cadastro com email <Email>
+    E preencho o formulario de cadastro com senha <Senha>
+    Quando escolho a opcao entrar
+    Entao verifico usuário logado <Nome>
+
+    Exemplos: 
+
+  Contexto: Eu como usuario desejo cadastrar um usuário para acessa a APP # logarouCadastrar.feature:8
+    ### Usado para fazer Swipe de janelas ate a funcionalidade Logar ou Cadastrar
+    Dado acesso tela de cadastro logar                                    # HomeSteps.acesso_tela_de_cadastro_logar()
+Olá, Amigo ;)   Tony4 Stark
+Olá, Amigo ;)   Tony4 Stark
+Olá, Amigo ;)   Tony4 Stark
+
+  @logar
+  Esquema do Cenario: Logar com Usuário Cadastrado                # logarouCadastrar.feature:34
+    E seleciono a opcao ja tenho conta                            # LoginSteps.seleciono_a_opcao_ja_tenho_conta()
+    E preencho o formulario de cadastro com email tony4@stark.com # CadastrarContaSteps.preencho_o_formulario_de_cadastro_com_email(String)
+    E preencho o formulario de cadastro com senha pass123         # CadastrarContaSteps.preencho_o_formulario_de_cadastro_com_senha(String)
+    Quando escolho a opcao entrar                                 # LoginSteps.escolho_a_opcao_entrar()
+    Entao verifico usuário logado Olá, Amigo ;)   Tony4 Stark     # ValidarCadastroSteps.verifico_usuário_logado(String)
+#language:pt
+#encoding:utf-8
+##################### Feature construida para Cadastrar Receita ou Despesa de um determinado Usuario
+@receita
+Funcionalidade: Organizar Conta - Receitas e Despesas
+
+  Esquema do Cenario: Cadastrar Receitas                         # organizarcontareceita.feature:17
+    E seleciono a opcao adicionar receitadespesa
+    E seleciono a opcao receita
+    E preencho o formulario de Receita Valor <Valor>
+    E preencho o formulario de Receita Categoria <Categoria>
+    E preencho o formulario de Receita Descricao <Descricao>
+    Quando seleciono a opcao Salvar
+    Entao verifico o item salvo na lista de receitas <Resultado>
+
+    Exemplos: 
+
+  ### Usado como Suporte para logar na APP
+  Contexto: Eu como usuario desejo estar logado para cadastrar minhas contas - Receitas e Despesas # organizarcontareceita.feature:8
+    Dado acesso tela de cadastro logar                                                             # HomeSteps.acesso_tela_de_cadastro_logar()
+    Dado acesso tela de cadastro logar                                                             # HomeSteps.acesso_tela_de_cadastro_logar()
+    E seleciono a opcao ja tenho conta                                                             # LoginSteps.seleciono_a_opcao_ja_tenho_conta()
+    E preencho o formulario de cadastro com email tony5@stark.com                                  # CadastrarContaSteps.preencho_o_formulario_de_cadastro_com_email(String)
+    E preencho o formulario de cadastro com senha pass123                                          # CadastrarContaSteps.preencho_o_formulario_de_cadastro_com_senha(String)
+    Quando escolho a opcao entrar                                                                  # LoginSteps.escolho_a_opcao_entrar()
+R$ 60
+R$ 60
+R$ 60
+
+  @receita
+  Esquema do Cenario: Cadastrar Receitas                               # organizarcontareceita.feature:28
+    E seleciono a opcao adicionar receitadespesa                       # CadastrarContaReceitaSteps.seleciono_a_opcao_adicionar_receitadespesa()
+    E seleciono a opcao receita                                        # CadastrarContaReceitaSteps.seleciono_a_opcao_receita()
+    E preencho o formulario de Receita Valor 15                        # CadastrarContaReceitaSteps.preencho_o_formulario_de_Receita_Valor(String)
+    E preencho o formulario de Receita Categoria Merenda2              # CadastrarContaReceitaSteps.preencho_o_formulario_de_Receita_Categoria(String)
+    E preencho o formulario de Receita Descricao Meu Lanche da semana2 # CadastrarContaReceitaSteps.preencho_o_formulario_de_Receita_Descricao(String)
+    Quando seleciono a opcao Salvar                                    # CadastrarContaReceitaSteps.seleciono_a_opcao_Salvar()
+    Entao verifico o item salvo na lista de receitas R$ 60             # ValidarCadastroSteps.verifico_o_item_salvo_na_lista_de_receitas(String)
+
+3 Scenarios (3 passed)
+26 Steps (26 passed)
+2m7,525s
+
+abr 11, 2020 8:43:36 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFORMAÇÕES: Detected dialect: W3C
+#language:pt
+#encoding:utf-8
+##################### Feature construida para Cadastrar Novo Usuario  ou Logar na Aplicaco
+@logar
+Funcionalidade: Cadastrar Usuário
+
+  #@cad
+  Esquema do Cenario: Cadastrar Usuário                          # logarouCadastrar.feature:12
+    E seleciono a opcao cadastrar
+    E preencho o formulario de cadastro com nome  <Nome>
+    E preencho o formulario de cadastro com email <Email>
+    E preencho o formulario de cadastro com senha <Senha>
+    Quando escolho a opcao cadastrar
+    Entao verifico a mensagem de confirmacao de cadastro na tela
+
+    Exemplos: 
+
+Process finished with exit code 0

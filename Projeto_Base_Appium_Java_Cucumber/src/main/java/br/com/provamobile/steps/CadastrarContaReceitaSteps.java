@@ -4,16 +4,20 @@ import br.com.provamobile.screen.CadastrarContaReceitaScreen;
 import cucumber.api.java.pt.E;
 import cucumber.api.java.pt.Quando;
 
+import java.time.Duration;
+
 public class CadastrarContaReceitaSteps {
 
 
     @E("^seleciono a opcao adicionar receitadespesa$")
         public void seleciono_a_opcao_adicionar_receitadespesa(){
+        Duration.ofSeconds(10);
         CadastrarContaReceitaScreen.clicarAddReceita();
 
     }
     @E("^seleciono a opcao receita$")
         public void seleciono_a_opcao_receita(){
+            Duration.ofSeconds(10);
             CadastrarContaReceitaScreen.clicarMenuReceita();
     }
 
@@ -36,6 +40,7 @@ public class CadastrarContaReceitaSteps {
     @Quando("^seleciono a opcao Salvar$")
         public void seleciono_a_opcao_Salvar(){
             CadastrarContaReceitaScreen.clicarSalvar();
+
     }
 
 

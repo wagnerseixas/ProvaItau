@@ -8,7 +8,7 @@ Funcionalidade: Cadastrar Usuário
   Contexto: Eu como usuario desejo cadastrar um usuário para acessa a APP
     ### Usado para fazer Swipe de janelas ate a funcionalidade Logar ou Cadastrar
     Dado acesso tela de cadastro logar
-
+  #@cad
   Esquema do Cenario: Cadastrar Usuário
 
     E seleciono a opcao cadastrar
@@ -19,7 +19,8 @@ Funcionalidade: Cadastrar Usuário
     Entao verifico a mensagem de confirmacao de cadastro na tela
     Exemplos:
     | Nome           |  Email         | Senha   |
-    | Tony7 Stark    |tony7@stark.com | pass123 |
+    | Tony12 Stark    |tony12@stark.com | pass123 |
+
 
   Esquema do Cenario: Logar com Usuário Cadastrado
 

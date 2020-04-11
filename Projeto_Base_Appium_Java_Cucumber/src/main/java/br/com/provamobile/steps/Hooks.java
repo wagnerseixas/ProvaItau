@@ -14,7 +14,7 @@ import java.time.Duration;
 
 public class Hooks extends Element {
     public Hooks(){
-        PageFactory.initElements(new AppiumFieldDecorator(DriverFactory.getDriver(), Duration.ofSeconds(15)  ), this );
+        PageFactory.initElements(new AppiumFieldDecorator(DriverFactory.getDriver(), Duration.ofSeconds(10)  ), this );
     }
 
     @After //import cucumber.api.java.After;

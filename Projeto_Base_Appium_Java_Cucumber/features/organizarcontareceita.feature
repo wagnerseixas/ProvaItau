@@ -9,7 +9,7 @@ Funcionalidade: Organizar Conta - Receitas e Despesas
  Dado acesso tela de cadastro logar
  Dado acesso tela de cadastro logar
  E seleciono a opcao ja tenho conta
- E preencho o formulario de cadastro com email tony4@stark.com
+ E preencho o formulario de cadastro com email tony6@stark.com
  E preencho o formulario de cadastro com senha pass123
  Quando escolho a opcao entrar
 
@@ -22,7 +22,7 @@ Funcionalidade: Organizar Conta - Receitas e Despesas
     E preencho o formulario de Receita Categoria <Categoria>
     E preencho o formulario de Receita Descricao <Descricao>
     Quando seleciono a opcao Salvar
-    Entao verifico o item salvo na lista de receitas <Descricao>
+    Entao verifico o item salvo na lista de receitas <Resultado>
     Exemplos:
-      | Valor             |  Categoria          | Descricao          |
-      | 20               | lanche7              | Lanche da semana7  |
+      | Valor             | Categoria           | Descricao              | Resultado |
+      | 10                | Merenda1            | Meu Lanche da semana1  | R$ 10     |

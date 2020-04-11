@@ -9,7 +9,9 @@ public abstract class ValidarCadastroScreen extends BaseScreen {
 
     private static final By btvalidanomelogado = By.id("com.example.organize:id/textSaudacao");
 
-    private static final By nmConfirmarCadastroReceita = By.id("com.example.organize:id/textAdapterTitulo");
+    private static final By nmConfirmarCadastroReceita = By.id("com.example.organize:id/textSaldo");
+   // private static final By nmConfirmarCadastroReceita = By.id("com.example.organize:id/recycleMovimentos");
+
 
 
 
@@ -31,6 +33,7 @@ public abstract class ValidarCadastroScreen extends BaseScreen {
             System.out.println(element(nmConfirmarCadastroReceita).getText());
 
         }
+        //Duration.ofSeconds(15);
         return element(nmConfirmarCadastroReceita).getText();
     }
 

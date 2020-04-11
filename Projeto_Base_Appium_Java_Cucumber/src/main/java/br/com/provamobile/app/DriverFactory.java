@@ -30,7 +30,7 @@ public class DriverFactory {
         cap.setCapability(MobileCapabilityType.APP, "D:/ProvaItauSP/Projeto_Base_Appium_Java_Cucumber/apk/ContePraMim(^_^).apk");
         //appiumDriver = new AppiumDriver<MobileElement>(new URL("http://192.168.114.103"), cap);
         appiumDriver = new AppiumDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"), cap);
-        appiumDriver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        appiumDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 
         }catch (MalformedURLException e) {
