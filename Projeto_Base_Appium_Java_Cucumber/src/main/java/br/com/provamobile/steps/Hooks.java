@@ -1,5 +1,6 @@
 package br.com.provamobile.steps;
 
+
 import br.com.provamobile.app.DriverFactory;
 import br.com.provamobile.support.Element;
 import br.com.provamobile.support.Utils;
@@ -13,7 +14,7 @@ import java.time.Duration;
 
 public class Hooks extends Element {
     public Hooks(){
-        PageFactory.initElements(new AppiumFieldDecorator(DriverFactory.getDriver(), Duration.ofSeconds(30)  ), this );
+        PageFactory.initElements(new AppiumFieldDecorator(DriverFactory.getDriver(), Duration.ofSeconds(15)  ), this );
     }
 
     @After //import cucumber.api.java.After;
@@ -27,3 +28,20 @@ public class Hooks extends Element {
     }
 
 }
+
+
+// public class Hooks {
+//
+//    Random rand = new Random();
+//    int value = rand.nextInt(50);
+//
+//    @Before
+//    public void beforeScenario() throws Exception {
+//        System.out.println("Before Scenario"+value + "\n");
+//    }
+//
+//    @After
+//    public void afterScenario() throws InterruptedException, IOException {
+//        System.out.println("After Scenario"+value + "\n");
+//    }
+//}

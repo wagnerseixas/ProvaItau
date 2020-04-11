@@ -2,6 +2,7 @@ package br.com.provamobile.screen;
 
 import org.openqa.selenium.By;
 
+
 public abstract class ValidarCadastroScreen extends BaseScreen {
 
     private static final By btCadastre = By.id("com.example.organize:id/button");
@@ -25,8 +26,10 @@ public abstract class ValidarCadastroScreen extends BaseScreen {
     }
 
     public static String validarConfirmarReceita() {
+
         if(element(nmConfirmarCadastroReceita).isDisplayed()){
             System.out.println(element(nmConfirmarCadastroReceita).getText());
+
         }
         return element(nmConfirmarCadastroReceita).getText();
     }

@@ -43,8 +43,7 @@ public class BaseScreen extends Element {
         protected static String getText(By by) {
             return element(by).getText();
         }
-
-        /* Função que valida se o check está true*/
+       /* Função que valida se o check está true*/
         protected static String checkedTrue(By by, String True) {
             return element(by).getAttribute(True);
         }

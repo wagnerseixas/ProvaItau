@@ -6,6 +6,16 @@
     <groupId>org.example</groupId>
     <artifactId>appiumTest</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <properties>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
+        <maven.compile.encoding>UTF-8</maven.compile.encoding>
+
+        <powermock.version>1.7.0</powermock.version>
+
+        <test.integration.pattern>**/*IntegrationTest*.java</test.integration.pattern>
+    </properties>
     <build>
         <plugins>
             <plugin>
@@ -15,6 +25,26 @@
                     <source>8</source>
                     <target>8</target>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>net.masterthought</groupId>
+                <artifactId>cucumber-reporting</artifactId>
+                <version>5.1.1</version>
+                <executions>
+                        <execution>
+                             <id>execution</id>
+                              <phase>verify</phase>
+                              <goals>
+                                 <goal>generate</goal>
+                              </goals>
+
+                        </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>2.8</version>
             </plugin>
         </plugins>
     </build>
@@ -40,6 +70,13 @@
             <artifactId>cucumber-jvm</artifactId>
             <version>5.4.0</version>
             <type>pom</type>
+        </dependency>
+
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java8</artifactId>
+            <version>5.6.0</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
