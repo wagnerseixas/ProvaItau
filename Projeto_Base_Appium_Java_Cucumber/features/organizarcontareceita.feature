@@ -2,27 +2,25 @@
 #encoding:utf-8
 ##################### Feature construida para Cadastrar Receita ou Despesa de um determinado Usuario
 
-@receita
+@addrec
 Funcionalidade: Organizar Conta - Receitas e Despesas
 ### Usado como Suporte para logar na APP
+
  Contexto: Eu como usuario desejo estar logado para cadastrar minhas contas - Receitas e Despesas
  Dado acesso tela de cadastro logar
  Dado acesso tela de cadastro logar
  E seleciono a opcao ja tenho conta
- E preencho o formulario de cadastro com email tony6@stark.com
- E preencho o formulario de cadastro com senha pass123
+ E preencho o formulario de cadastro com email
+ E preencho o formulario de cadastro com senha
  Quando escolho a opcao entrar
 
 
-   Esquema do Cenario: Cadastrar Receitas
-
+ Cenario: Cadastrar Receitas
     E seleciono a opcao adicionar receitadespesa
     E seleciono a opcao receita
-    E preencho o formulario de Receita Valor <Valor>
-    E preencho o formulario de Receita Categoria <Categoria>
-    E preencho o formulario de Receita Descricao <Descricao>
+    E preencho o formulario de Receita Valor
+    E preencho o formulario de Receita Categoria
+    E preencho o formulario de Receita Descricao
     Quando seleciono a opcao Salvar
-    Entao verifico o item salvo na lista de receitas <Resultado>
-    Exemplos:
-      | Valor             | Categoria           | Descricao              | Resultado |
-      | 10                | Merenda1            | Meu Lanche da semana1  | R$ 10     |
+    Entao verifico o item salvo na lista de receitas
+

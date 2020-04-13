@@ -16,7 +16,7 @@ import java.time.format.DateTimeFormatter;
 
 @CucumberOptions(
         features = "features",
-        tags = {"@logar,@receita"},
+        tags = {"@logar,@cad,@addrec"},
         glue = "br/com/provamobile/steps",
         plugin = {"json:target/cucumber-reports/report_cucumber.json","pretty","html:target/cucumber-reports/report_cucumber.html"}
 )

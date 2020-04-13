@@ -6,6 +6,7 @@ import cucumber.api.java.pt.Quando;
 
 public class LoginSteps {
 
+
     @E("^seleciono a opcao cadastrar$")
     public void seleciono_a_opcao_cadastrar() {
         LoginScreen.opcaocadastrar();
